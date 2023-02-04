@@ -14,7 +14,7 @@
     --cor04:#e9f2f8;
     --cor05:#DACDBE;
     --cor06:#638052;
-    --cor07:#b3cfa3;
+    --cor07:#caf0ca;
     --cor08:#31412e;
 
     --fonte-destaque: 'Be Vietnam Pro', sans-serif;
@@ -23,24 +23,27 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 body{
     font-size: var(--fonte-padrao);
+    background-color: var(--cor07);
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor07), var(--cor04));
-    color: var(--cor02);
+    background-image: linear-gradient(to bottom, var(--cor07), var(--cor06));
+    color: white;
     min-height: 140px;
-    text-align: left;
+    text-align: center;
     font-size: 2em;
     padding: 5px;  
 }
 
 header >h1{
-    color: var(--cor08);
-    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    font-family: var(--fonte-padrao);
     margin-bottom: 10px;
+    margin-top: 30px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
 }
 header > p {
@@ -51,13 +54,13 @@ header > p {
     font-weight: bold;
 }
 nav {
-    background-color: var(--cor04);
+    background-color: var(--cor06);
     padding: 10px;
-    text-align: right;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.158);
+    text-align: center;
+    
 }
 nav > a {
-    color: var(--cor02);
+    color: white;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -65,15 +68,16 @@ nav > a {
 }
 nav :hover{
     background-color:var(--cor07);
-    color: white;
+    color:var(--cor02);
 }
 main{
-    background-color: var(--cor07);
+    background-color: white;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 0px;
     padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
     
 }
 main > article > h1 {
