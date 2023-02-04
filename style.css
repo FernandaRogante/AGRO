@@ -1,12 +1,9 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
 
-@font-face {
-    font-family: 'destaque';
-    src: url(fontes/be.txt) format(opentype);
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root{
     --cor01:#032f52;
     --cor02:#0a263d;
@@ -17,8 +14,8 @@
     --cor07:#caf0ca;
     --cor08:#31412e;
 
-    --fonte-destaque: 'Domine', serif;
-    --fonte-padrao: 'destaque',cursive;
+    --fonte-destaque: 'Tiro Devanagari Marathi', serif;
+    --fonte-padrao: 'Lato', sans-serif;
 }
 *{
     margin: 0px;
@@ -31,7 +28,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor07), var(--cor06));
+    background-image: linear-gradient(to bottom, var(--cor08), var(--cor06));
     color: white;
     min-height: 140px;
     text-align: center;
@@ -104,7 +101,7 @@ main strong {
 
 }
 img {
-    width: 40%;  
+    width: 100%;  
    
 }
 img.destaque{
@@ -117,20 +114,20 @@ img.destaque{
 #imagesus{
     display: flex;
     justify-content: center;
-    width: 60%;
+    
 }
 #futu{
     display: flex;
     justify-content: center;
 }
 footer{
-    background-color: var(--cor08);
+    background-color: var(--cor06);
     color: var(--cor05);
     text-align: center;
     padding: 5px;
 }
 footer a {
-    color: var(--cor03);
+    color: var(--cor01);
     text-decoration: none;
     font-weight: bold;
     
